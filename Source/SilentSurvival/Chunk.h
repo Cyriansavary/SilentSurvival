@@ -72,11 +72,11 @@ public:
 
 	bool Check(FVector Position) const;
 
-	void CreateFace(EDirection Direction, FVector Position) const;
+	void CreateFace(EDirection Direction, FVector Position);
 
 	TArray<FVector> GetFaceVertices(EDirection Direction, FVector Position) const;
 
-	FVector GetPositonInDirection(EDirection Direction, FVector Position) const;
+	FVector GetPositionInDirection(EDirection Direction, FVector Position) const;
 
 	int GetBlockIndex(int X, int Y, int Z) const;
 
