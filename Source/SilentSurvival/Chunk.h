@@ -45,13 +45,13 @@ public:
 	int VertexCount = 0;
 
 	const FVector BlockVertexData[8] = {
-	 FVector(100,100,100),
-	 FVector(100,0,100),
-	 FVector(100,0,0),
-	 FVector(100,100,0),
-	 FVector(0,0,100),
-	 FVector(0,100,100),
-	 FVector(0,100,0),
+	 FVector(1,1,1),
+	 FVector(1,0,1),
+	 FVector(1,0,0),
+	 FVector(1,1,0),
+	 FVector(0,0,1),
+	 FVector(0,1,1),
+	 FVector(0,1,0),
 	 FVector(0,0,0)
 	};
 
